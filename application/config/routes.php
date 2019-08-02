@@ -2,8 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-$route['default_controller'] = 'pages/view';
-$route['(:any)'] = 'pages/view/$1';
+$route['default_controller'] = 'home';
 $route['Ingresar'] = 'login/Login/ValidarIngreso';
 $route['Dashboard'] = 'dashboard/dashboard_controller';
 $route['Dashboard/usuarios'] = 'dashboard/Dashboard_controller/usuarios';
