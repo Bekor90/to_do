@@ -60,7 +60,7 @@ $db['default'] = array(
 |
 */
 
-$config['base_url'] = 'https://todocode.herokuapp.com/';
+$config['base_url'] = 'https://todocode.herokuapp.com';
 $config['index_page'] = 'views/login.php';
 
 /*
